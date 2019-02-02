@@ -93,7 +93,7 @@ public class DiracSettingsFragment extends PreferenceFragment implements
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         mSwitchBar.setChecked(isChecked);
 
-        DiracUtils.setMusic(isChecked);
+        DiracUtils.setEnabled(isChecked);
 
         if (!DiracUtils.getHifiMode()) {
             mHeadsetType.setEnabled(isChecked);
