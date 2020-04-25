@@ -12,6 +12,9 @@ ro.bluetooth.a2dp_offload.supported=true
 # Camera
 camera.disable_zsl_mode=true
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
 # Data modules
 persist.data.df.dev_name=rmnet_usb0
 persist.vendor.data.mode=concurrent
