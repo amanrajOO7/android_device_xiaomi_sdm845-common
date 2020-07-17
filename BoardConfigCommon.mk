@@ -40,6 +40,12 @@ TARGET_KERNEL_ARCH := arm64
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CLANG_COMPILE := true
   TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
+  TARGET_KERNEL_CLANG_PATH := $(shell pwd)/proton-clang
+  KERNEL_TOOLCHAIN_arm64 := $(shell pwd)/proton-clang
+  KERNEL_TOOLCHAIN_PREFIX_arm64 := aarch64-linux-gnu
+  KERNEL_TOOLCHAIN_arm := $(shell pwd)/proton-clang
+  KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-gnueabi
+  TARGET_KERNEL_ADDITIONAL_FLAGS := AS=llvm-as AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
 endif
 
 # Platform
