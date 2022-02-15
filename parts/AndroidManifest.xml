@@ -94,7 +94,17 @@
             android:exported="true"
             android:permission="ThermalService">
         </service>
-        
+
+        <activity
+            android:name=".TileEntryActivity"
+            android:exported="false"
+            android:label="@string/deviceparts_label"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+        </activity>        
+
         <service
             android:name=".dirac.DiracTileService"
             android:exported="false"
