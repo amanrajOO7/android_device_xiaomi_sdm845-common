@@ -184,7 +184,7 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.0.vendor
+    android.hardware.gnss@2.1.vendor
 
 # fastbootd
 PRODUCT_PACKAGES += \
