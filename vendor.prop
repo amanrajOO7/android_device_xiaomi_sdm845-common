@@ -104,7 +104,7 @@ persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
-vendor.camera.aux.packagelist=com.android.camera,org.derpfest.flash
+vendor.camera.aux.packagelist=com.android.camera,co.aospa.sense,org.derpfest.flash
 
 # Chipset
 ro.soc.manufacturer=Qualcomm
