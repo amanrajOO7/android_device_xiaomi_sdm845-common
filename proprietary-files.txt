@@ -305,6 +305,10 @@ vendor/lib64/libsecureui_svcsock.so|2232f56927964f10d41868919d94711930d50ed0
 vendor/lib64/libssd.so|aebe668e327fcf30bf0f2afacfdc3cc469043e5e
 vendor/lib64/libtzdrmgenprov.so|ff8f9eadd70b0ae366a68848c9c71d37a8b75317
 
+# DRM - from coral - TP1A.220905.004
+vendor/lib/libspl.so|26c6a5f3246a27314f6489a487e21a586f443bc0
+vendor/lib64/libspl.so|f8bbe0322ce06a545f5dc79c888183ac61673b68
+
 # ESE - from PNX - RKQ1.200906.002
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|0de9474912b1206cfe17459afca9ebb28bdd2468
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
