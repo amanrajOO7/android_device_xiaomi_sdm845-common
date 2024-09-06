@@ -209,11 +209,14 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti_recovery
 
 # HIDL
+PRODUCT_HIDL_ENABLED := true
+
 PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0.vendor \
     android.hidl.base@1.0 \
     android.hidl.base@1.0.vendor \
     android.hidl.memory@1.0.vendor \
+    hwservicemanager \
     libhidlmemory.vendor \
     libhidltransport \
     libhidltransport.vendor \
