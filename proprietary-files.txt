@@ -68,7 +68,7 @@ vendor/lib64/libhfp.so
 vendor/lib64/libsndmonitor.so
 vendor/lib64/libspkrprot.so
 
-# Audio FX modules (system) - from LA.QSSI.14.0.r1-15800-qssi.0
+# Audio FX modules (system) - from LA.QSSI.14.0.r1-16600-qssi.0
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 system_ext/framework/audiosphere.jar|cfe651014a70739e4a2a41dc746fa8111f092bde
 
@@ -115,7 +115,7 @@ vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
-# CNE (system) - from LA.QSSI.14.0.r1-15800-qssi.0
+# CNE (system) - from LA.QSSI.14.0.r1-16600-qssi.0
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar|3fd54fa1246cc37b523b91371024e8dddde14c52
 system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar|0f4a64cbcc52f0af388ac35affc2e80ca3b27d74
 system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar|2b4bb4c565c12f5be07558abe0f6eb9a290295e7
@@ -247,7 +247,7 @@ vendor/lib64/vendor.display.color@1.4.so|1396673668977af0a8afeaa64f891c3b356f958
 vendor/lib64/vendor.display.color@1.5.so|f1c12eb133698917385d48913358eaffd9a10879
 vendor/lib64/vendor.display.postproc@1.0.so|e56b66d744dd77bd87afbb30cab558acf15709fb
 
-# DPM (system) - from LA.QSSI.14.0.r1-15800-qssi.0
+# DPM (system) - from LA.QSSI.14.0.r1-16600-qssi.0
 framework/tcmclient.jar|4e1dfaa243c67fec31b5a44086c9c417892761ae
 system_ext/bin/dpmd|94349101b52498554d12d3622e2b2dbd1263558d
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
@@ -257,7 +257,7 @@ system_ext/etc/permissions/dpmapi.xml|255903759a60a31c0876ec004e74554c753270fe
 system_ext/framework/com.qti.dpmframework.jar|4fc38f534c788b80b432b385e07973bdd6e8c98f
 system_ext/framework/dpmapi.jar|c379f7a671439737fbff03411f28891d0f9313c9
 system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|3e9786c8263de4135926a91083b70a737fc1d28b
-system_ext/lib64/libdiag_system.so|b479225f6d2a3e39dde96a22563a149dcb7f90d8
+system_ext/lib64/libdiag_system.so|001edfae25839aaa0131dfb9920102764b597c7c
 system_ext/lib64/libdpmctmgr.so|206949728b98a513683468209dbce86ed29412b8
 system_ext/lib64/libdpmfdmgr.so|da636fca9a9a91a897d17fd519448b10053a696b
 system_ext/lib64/libdpmframework.so|d974f04f110b3c1a1282d78bb0ff8a29dc022439
@@ -380,7 +380,7 @@ product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
 
-# IMS (system) - from LA.QSSI.14.0.r1-15800-qssi.0
+# IMS (system) - from LA.QSSI.14.0.r1-16600-qssi.0
 system_ext/app/ImsRcsService/ImsRcsService.apk|57e4275cf15544a350617605d4a556534ada041c
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|b40fc74f7d5e58b4e918f952b89a79cf2a5c4088
@@ -434,7 +434,7 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|276ea5b776a6947f95d5f3c9d721985
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|21792652d0202f3bc4e93889ec6a36b84ba3edf6
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|919c4398097c8b818a415efccc57e989c7c24e10
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|d1b6a6eabf17e43e98dcc4372fdabea4890f7cd8
-system_ext/priv-app/ims/ims.apk|a52f115f281d22025272791b7414775bb30feb4d
+system_ext/priv-app/ims/ims.apk|e45b1b7d2489824b0230aa6032ea1d65156ddea4
 
 # IMS (vendor) - from PNX - RKQ1.200906.002
 vendor/bin/ims_rtp_daemon|2c995a884bbde9f37a44a10ac8fb694b30af97ea
@@ -591,7 +591,7 @@ vendor/lib/libspcom.so|acec0b9bd1f9e31b3022f14975b0cc5566e4bb4a
 vendor/lib64/libperipheral_client.so|8cb65f4c93719767048dd7b1b845473fe6074ff7
 vendor/lib64/libspcom.so|1e82b29e1c128c6aef28f9f632f5cd0e04f5c3d9
 
-# Power-off alarm (system) - from LA.QSSI.14.0.r1-15800-qssi.0
+# Power-off alarm (system) - from LA.QSSI.14.0.r1-16600-qssi.0
 system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|4dde74329bafbc055baa30043d778f876466a6a8
 
 # Power-off alarm (vendor) - from caymanslm - SKQ1.211103.001
@@ -601,7 +601,7 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|f2b57130987c65a1dc596bf83a2b09e086df9286
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|74675e4f720d75db031a0db4ca21463ebd331f34
 
-# QMI (system) - from LA.QSSI.14.0.r1-15800-qssi.0
+# QMI (system) - from LA.QSSI.14.0.r1-16600-qssi.0
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 
@@ -643,7 +643,7 @@ vendor/lib64/libqmi_encdec.so|acfff1a63cbf216f7349e55668bef9d4eb2e1f00
 vendor/lib64/libqminvapi.so|ed89dde2730b3e2a3a6072bcd5d367aba982ab9e
 vendor/lib64/libqmiservices.so|5b62adefda77de5e3e4b7b1d2db8a87ebdc54b23
 
-# RIL (system) - from LA.QSSI.14.0.r1-15800-qssi.0
+# RIL (system) - from LA.QSSI.14.0.r1-16600-qssi.0
 system_ext/app/DeviceInfo/DeviceInfo.apk|9151091e029c31228100a4c471b5a499acdf8129
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|6649715fb5d956ca7e92a747dc6e73a24f3c025e
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
@@ -875,7 +875,7 @@ vendor/lib64/libwvhidl.so|f32257498c35e1336b48a03463f8c8cea7df7b18
 vendor/bin/cnss-daemon
 vendor/bin/nv_mac
 
-# WiFi Display (system) - from LA.QSSI.14.0.r1-15800-qssi.0
+# WiFi Display (system) - from LA.QSSI.14.0.r1-16600-qssi.0
 framework/WfdCommon.jar|08bf9850ac45396fe753e208c4d63ec43389dce2
 system_ext/bin/wfdservice|400d123df78c1ed2e9643ff3ddf5ee5748f954fe
 system_ext/etc/init/wfdservice.rc|907def8565d8f91f531ca7dfad880af05d540b0c
@@ -883,19 +883,19 @@ system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml|10dcd4e58f
 system_ext/etc/seccomp_policy/wfdservice.policy|37994de64d6bd127898bd556cd614db459fe07ec
 system_ext/etc/wfdconfigsink.xml|cb78df66948314a75080a4161321fb3111a0785a
 system_ext/lib/libmmosal.so|9cfaa2338ce8c803f8c7ca12de271b9ffbbeb737
-system_ext/lib/libmmparser_lite.so|64fe262116fa88036bc70906b2d884ecdef7814a
+system_ext/lib/libmmparser_lite.so|29cd3f9dc895ec532b2fb50ad600612599630c29
 system_ext/lib/libmmrtpdecoder.so|4fc76315f11ff5fe416f36b66c9422ef05eae182
 system_ext/lib/libmmrtpencoder.so|0fa2096eec29eec395f6bd88d7d1049a127e090c
 system_ext/lib/libwfdavenhancements.so|6b17a4e265fedb563f18b867292dcacf1913bf9e
-system_ext/lib/libwfdclient.so|23aec37a931f1d9c88b1c8ad1d7b234d14c434e3
+system_ext/lib/libwfdclient.so|6f5dc5e5e29478d4b233b4cc19043ed2de469270
 system_ext/lib/libwfdcommonutils.so|b738182e77f3e7faf72460f09ebdfca7de5e0c23
-system_ext/lib/libwfdconfigutils.so|669ed3767775dd894feaf4eb4418f6cfdf9c8a5b
+system_ext/lib/libwfdconfigutils.so|8df463cfc229b0e925e2f6a6419a14cd35149fb7
 system_ext/lib/libwfddisplayconfig.so|f46fe63fb3d58c143dc92741a962167af3d8b928
 system_ext/lib/libwfdmminterface.so|5844114d7cc823090a70fe4f44cbda0ddf585ebd
 system_ext/lib/libwfdmmsink.so|fad29da658e9706a53e0f3ca1fab4c642fe8e290
 system_ext/lib/libwfdmmsrc_system.so|5861cda4006194a0db8874aa99bfb32f4d94eaca
 system_ext/lib/libwfdrtsp.so|623583395c3e499ca1b5143dd5f001a013e0530b
-system_ext/lib/libwfdservice.so|376d16353c3e8ea1078f17bbb4d3079d058b254b
+system_ext/lib/libwfdservice.so|c0f4b6be8516a8d9b59c41238284ebf3266beec0
 system_ext/lib/libwfdsinksm.so|875171cc6ae534dd941eec1c87b78d5961e19c06
 system_ext/lib/libwfduibcinterface.so|e90fa4920b010bd6ef2bd78c2d2644cbd0fcbffa
 system_ext/lib/libwfduibcsink.so|91af548471c395a958e6155dd9be19cccbe482d3
@@ -904,16 +904,16 @@ system_ext/lib/libwfduibcsrc.so|a0b1c73015c449468db0d2776fdfcc56dfeee53b
 system_ext/lib/libwfduibcsrcinterface.so|2e24ec6a075407664488b4214eef35cb2ca845f4
 system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|45a0a8cd9f1aa5cbe69b113192d42bc42e32e9c3
 system_ext/lib64/libmmosal.so|a1a2875522a7b4daf346bf26c66bcbc793c8810b
-system_ext/lib64/libmmparser_lite.so|59c6de5d3f2f0b078aed15faaf8122d7ca6e77c9
+system_ext/lib64/libmmparser_lite.so|b6cf6cb337203f49d894d4e1c850a74bcf12027c
 system_ext/lib64/libmmrtpdecoder.so|0da526d51135ea58236ab6bcc2d1b7484931df24
 system_ext/lib64/libmmrtpencoder.so|fafe00d1ed3d691c6d2c2d963144218764cad5ae
-system_ext/lib64/libwfdclient.so|7f1bf07d02a18e8b15af25ab097cf4af04bc9cc5
+system_ext/lib64/libwfdclient.so|867239556be5ff9eafb0153e63f4a82ac5f4422a
 system_ext/lib64/libwfdcommonutils.so|14b3bd86703f2aca0abb1232d2304e626c1af644
-system_ext/lib64/libwfdconfigutils.so|648d166355061e7c3a5ccaba3c2455454f3cf690
+system_ext/lib64/libwfdconfigutils.so|77666b6eaf37c162ac58e2ee514394c1ada230bf
 system_ext/lib64/libwfddisplayconfig.so|5fd7bf7abaedfe890442f88183c49755b25c39aa
 system_ext/lib64/libwfdmminterface.so|3f16acefbe87741a5841c1c70cf74ff917299c4c
 system_ext/lib64/libwfdmmsink.so|325f2d1f17cf8bd6c727f912722ff6d33e383571
-system_ext/lib64/libwfdnative.so|2a25adacd1acfbc689d4185b2e03d037f6c92796
+system_ext/lib64/libwfdnative.so|1cf2a97d5118903d5ab02b813447a8199bdc1e73
 system_ext/lib64/libwfdrtsp.so|f404e10b138419eeaacba42b1487a21a13e118d6
 system_ext/lib64/libwfdsinksm.so|c4d68ecbe0accd24296c18444e5a82b6a24be8d8
 system_ext/lib64/libwfduibcinterface.so|dca32fe063bdba7ce3b131b16cf112b793ae03ad
